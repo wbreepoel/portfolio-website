@@ -155,6 +155,10 @@ figcaption {
   color: #fff;
 }
 
+.black {
+  color: rgb(0,0,0)!important;
+}
+
 .white.blogs {
   margin-bottom: 30px;
 }
@@ -734,6 +738,14 @@ figcaption {
 
 .service-pointer-item {
   margin-bottom: 10px;
+}
+
+.service-pointer-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-height: 185px;
 }
 
 .service-pointer {
@@ -1525,6 +1537,8 @@ figcaption {
   width: 30%;
   max-width: 203px;
   padding-bottom: 13px;
+  color:white;
+  font-size: 25px;
 }
 
 .nav-link {
@@ -1543,7 +1557,7 @@ figcaption {
 }
 
 .nav-link.w--current {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   font-weight: 500;
 }
 
@@ -1908,7 +1922,7 @@ figcaption {
   width: 70%;
   margin-left: -130px;
   padding: 40px 10px 40px 40px;
-  background-color: #000;
+  background-color: white;
 }
 
 .project-item-heading-wrapper {
@@ -3346,6 +3360,11 @@ figcaption {
   .nav-brand {
     padding-bottom: 0px;
     padding-left: 0px;
+  }
+
+  .name {
+    font-weight: 800!important;
+    font-size: 30px!important;
   }
 
   .nav-menu {
