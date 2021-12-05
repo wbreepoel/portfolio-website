@@ -808,6 +808,16 @@ figcaption {
   margin-top: 20px;
 }
 
+.slick-dots li.slick-active button:before {
+  opacity: 1!important;
+  color: darkgrey!important;
+}
+
+.slick-dots li button:before {
+  opacity: 1!important;
+  color: white!important;
+}
+
 .project-slider {
   position: static;
   display: -webkit-box;
@@ -1836,11 +1846,17 @@ figcaption {
   margin-bottom: 25px;
 }
 
+.project.detail-image-section {
+  display:flex;
+  justify-content: center;
+}
+
 .project-detail-image-wrapper {
   position: relative;
   overflow: hidden;
-  width: 100%;
-  height: 600px;
+  width: 75%;
+  height: 300px;
+  margin-bottom: auto;
 }
 
 .next-project-link-wrapper {
