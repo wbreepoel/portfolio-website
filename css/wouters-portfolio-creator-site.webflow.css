@@ -476,9 +476,24 @@ figcaption {
 .home-hero-content-wrapper {
   width: 60%;
   margin-top: -50px;
-  padding-top: 100px;
+  margin: -50px auto 0 auto;
+  padding-top: 30px;
   padding-bottom: 100px;
+  text-align: center;
 }
+
+.introduction-video-container {
+  position: relative;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.introduction-video {
+  width: 100%!important;
+  
+}
+
+
 
 .text-block {
   /* color: #000; */
@@ -570,8 +585,9 @@ figcaption {
 
 .home-hero-paragraph-wrapper {
   max-width: 590px;
-  margin-top: 25px;
-  margin-bottom: 40px;
+  text-align:center;
+  width: 70%;
+  margin:25px auto 40px auto;
 }
 
 .home-hero-button-wrapper {
@@ -588,6 +604,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  margin:auto;
 }
 
 .home-hero-link-text {
